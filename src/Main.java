@@ -2,6 +2,8 @@ import Datatypes_Variables.DataTypes;
 import Input_Output.FormattingTextOutput;
 import Input_Output.Geometry;
 import Input_Output.TextInputOutput;
+import Loops.GuessingNumbers;
+import Loops.Triangles;
 import Operators.Cylinder;
 import Operators.OneLineOfCode;
 import Operators.TimeUnits;
@@ -27,6 +29,11 @@ public class Main {
         //2. Cylinder
         //Cylinder.runCylinder();
         //3. One line of code
-        OneLineOfCode.runOneLineOfCode();
+        //OneLineOfCode.runOneLineOfCode();
+        /// Loops
+        // 1. Guessing numbers
+        //GuessingNumbers.runGuessingNumbers();
+        //2. Triangles
+        Triangles.runTriangles();
     }
 }
